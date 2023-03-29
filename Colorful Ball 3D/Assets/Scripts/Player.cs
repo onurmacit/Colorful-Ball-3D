@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Touch touch;
+    public int speedModifier;
 
     public void Update()
     {
@@ -14,7 +15,9 @@ public class Player : MonoBehaviour
 
             if(touch.phase == TouchPhase.Moved)
             {
-
+                transform.position = new Vector3(transform.position.x+touch.deltaPosition.x * speedModifier * Time.deltaTime,
+                                                 transform.position.y,
+                                                 transform.position.z + touch.deltaPosition.y * speedModifier * Time.deltaTime);
             }
         }
     }

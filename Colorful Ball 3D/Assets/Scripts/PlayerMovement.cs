@@ -12,6 +12,11 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>(); // Topun Rigidbody bileşenini al
     }
 
+    void Update()
+    {
+        rb = GetComponent<Rigidbody>(); // Topun Rigidbody bileşenini al
+    }
+
     void FixedUpdate()
     {
         // Topun sabit hızda ilerlemesi için hız vektörünü oluştur
