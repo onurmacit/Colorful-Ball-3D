@@ -3,13 +3,18 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bounds
     - Player
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-  serializedClasses: {}
+  serializedClasses:
+    DOTween:
+    - DG.Tweening.Core.DOTweenSettings/ModulesSetup
+    - DG.Tweening.Core.DOTweenSettings/SafeModeOptions
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -44,9 +49,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 27582}
+      Script: {instanceID: 4908}
+    - Class: 114
+      Script: {instanceID: 31610}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -68,6 +75,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: a3aa5d65288dfb5a65f563ad11091156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bounds
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -329,6 +342,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
@@ -490,7 +509,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 93bd48fa9ddbdf8797cbbbf742dd3408
+      Hash: 7282a35558b8f7caccbb5746efa6cf98
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -844,16 +863,22 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a3aa5d65288dfb5a65f563ad11091156
+      Hash: 97dc628ed2ec8891d160f17c234759e8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Bounds
+    className: CameraShake
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Variables
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 23206d8cacf2b6e30fd52e948d6c73f5
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

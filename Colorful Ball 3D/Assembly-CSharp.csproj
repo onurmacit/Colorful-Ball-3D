@@ -36,10 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Bounds.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Variables.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <None Include="Assets\DOTween\readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -285,6 +295,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

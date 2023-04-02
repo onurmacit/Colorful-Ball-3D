@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
@@ -12,8 +13,13 @@ public class Player : MonoBehaviour
     [Range(20,40)]
     public int speedModifier;
     public int forwardSpeed;
-
     
+    public float duration;
+    public float strength;
+    public int vibrato;
+    public float randomness;
+
+     
     public void Update()
     {
         if(Variables.firsTouch == 1)
@@ -23,15 +29,6 @@ public class Player : MonoBehaviour
            vectorBack.transform.position += new Vector3(0,0,forwardSpeed*Time.deltaTime);
            vectorForward.transform.position += new Vector3(0,0,forwardSpeed*Time.deltaTime);
         }
-
-
-
-
-
-
-
-
-
 
         if (Input.touchCount > 0)
         {
@@ -47,10 +44,27 @@ public class Player : MonoBehaviour
                                          transform.position.y,
                                          touch.deltaPosition.y * speedModifier * Time.deltaTime);
             }
+
             else if(touch.phase == TouchPhase.Ended)
             {
                 rb.velocity =  Vector3.zero;
             }         
-        }
-    }
+            }
+        }  
+    public GameObject[] FractureItems;
+
+    public void OnCollisionEnter(Collision hit)
+    {
+        if(hit.gameObject.CompareTag("Obstacles"))
+        {              
+             gameObject.transform.GetChild(0).gameObject.SetActive(false);
+             foreach (GameObject item in FractureItems)
+             {
+                item.GetComponent<SphereCollider>().enabled = true;
+                item.GetComponent<Rigidbody>().isKinematic = false;
+
+                 cam.transform.DOShakeRotation(duration,strength,vibrato,randomness);                                             
+             }               
+        }       
+    }  
 }
