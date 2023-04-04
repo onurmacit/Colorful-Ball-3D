@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
+    
     public GameObject vectorBack;
      public GameObject vectorForward;
     public GameObject cam;
@@ -13,13 +14,12 @@ public class Player : MonoBehaviour
     [Range(20,40)]
     public int speedModifier;
     public int forwardSpeed;
-    
-    public float duration;
-    public float strength;
-    public int vibrato;
-    public float randomness;
-
-     
+    private CameraShake cameraScripti;
+    void Start()
+    {
+        cameraScripti = GameObject.FindObjectOfType<CameraShake>();
+       
+    }    
     public void Update()
     {
         if(Variables.firsTouch == 1)
@@ -52,7 +52,6 @@ public class Player : MonoBehaviour
             }
         }  
     public GameObject[] FractureItems;
-
     public void OnCollisionEnter(Collision hit)
     {
         if(hit.gameObject.CompareTag("Obstacles"))
@@ -62,9 +61,9 @@ public class Player : MonoBehaviour
              {
                 item.GetComponent<SphereCollider>().enabled = true;
                 item.GetComponent<Rigidbody>().isKinematic = false;
-
-                 cam.transform.DOShakeRotation(duration,strength,vibrato,randomness);                                             
+                cameraScripti.ShakeCamera();
+                                                                              
              }               
         }       
-    }  
+    }       
 }
