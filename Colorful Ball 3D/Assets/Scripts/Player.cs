@@ -5,7 +5,8 @@ using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
-    
+    private UIManager uımanagerscript;
+    private CameraShake cameraScript;
     public GameObject vectorBack;
      public GameObject vectorForward;
     public GameObject cam;
@@ -13,13 +14,13 @@ public class Player : MonoBehaviour
     private Touch touch;
     [Range(20,40)]
     public int speedModifier;
-    public int forwardSpeed;
-    private CameraShake cameraScripti;
+    public int forwardSpeed;  
+
     void Start()
     {
-        cameraScripti = GameObject.FindObjectOfType<CameraShake>();
-       
-    }    
+        cameraScript = GameObject.FindObjectOfType<CameraShake>();
+        uımanagerscript = GameObject.FindObjectOfType<UIManager>();
+    }        
     public void Update()
     {
         if(Variables.firsTouch == 1)
@@ -60,10 +61,10 @@ public class Player : MonoBehaviour
              foreach (GameObject item in FractureItems)
              {
                 item.GetComponent<SphereCollider>().enabled = true;
-                item.GetComponent<Rigidbody>().isKinematic = false;
-                cameraScripti.ShakeCamera();
-                                                                              
+                item.GetComponent<Rigidbody>().isKinematic = false;  
+                cameraScript.ShakeCamera();   
+                uımanagerscript.WhiteEffect();                                    
              }               
-        }       
-    }       
+        }  
+    }     
 }

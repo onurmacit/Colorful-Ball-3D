@@ -368,7 +368,7 @@
 "Assets/Scripts/Bounds.cs"
 "Assets/Scripts/CameraShake.cs"
 "Assets/Scripts/Player.cs"
-"Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/UIManager.cs"
 "Assets/Scripts/Variables.cs"
 -langversion:9.0
 
