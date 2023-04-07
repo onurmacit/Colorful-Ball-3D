@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Onur Macit/Documents/GitHub/Colorful-Ball-3D/Colorful Ball 3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57518
+Successfully changed project path to: C:/Users/Onur Macit/Documents/GitHub/Colorful-Ball-3D/Colorful Ball 3D
+C:/Users/Onur Macit/Documents/GitHub/Colorful-Ball-3D/Colorful Ball 3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 97.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Onur Macit/Documents/GitHub/Colorful-Ball-3D/Colorful Ball 3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008327 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (672ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (495ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006349 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (114.2 KB). Loaded Objects now: 3841.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 3.484300 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.172500 ms MarkObjects: 2.956200 ms  DeleteObjects: 0.107900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1515.174055 seconds.
+  path: Assets/Textures/CGB01-grey_L_pillShaped_btn.png
+  artifactKey: Guid(8890aec08c175874b9055caf9d8cc729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_L_pillShaped_btn.png using Guid(8890aec08c175874b9055caf9d8cc729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eafcbc9856038d267aed75fbb3f493') in 0.140387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/CGB01-grey_M_pillShaped_btn.png
+  artifactKey: Guid(6036a77123afd58438b69f8523072b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_M_pillShaped_btn.png using Guid(6036a77123afd58438b69f8523072b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052cf2ea8caafd7bb1dac781eb9882a1') in 0.012706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/CGB01-grey_XL_rounded_btn.png
+  artifactKey: Guid(818c661b2976dab44bfac711dd6e87fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_XL_rounded_btn.png using Guid(818c661b2976dab44bfac711dd6e87fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c14e5d1d91efdd8150c212deddde101') in 0.014663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.771905 seconds.
+  path: Assets/Textures/CGB01-grey_L_pillShaped_btn.png
+  artifactKey: Guid(8890aec08c175874b9055caf9d8cc729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_L_pillShaped_btn.png using Guid(8890aec08c175874b9055caf9d8cc729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c583e05f652078d80211c5469bb18d') in 0.076035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/CGB01-grey_XL_sharp_btn.png
+  artifactKey: Guid(185459872b449d0479aefdc6603314bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_XL_sharp_btn.png using Guid(185459872b449d0479aefdc6603314bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fe9779d4608c44f704c711bc0e5354') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/CGB01-grey_M_sharp_btn.png
+  artifactKey: Guid(9b7e1aca5ed942649ad483867020eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_M_sharp_btn.png using Guid(9b7e1aca5ed942649ad483867020eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025fc7aaec2b4437dd08375f0c0f854e') in 0.020543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/CGB01-grey_XL_pillShaped_btn.png
+  artifactKey: Guid(2aedfdd49459c5548832cfd1e98ec402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_XL_pillShaped_btn.png using Guid(2aedfdd49459c5548832cfd1e98ec402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd419b59be15d3d40e858e95004900365') in 0.021643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/CGB01-grey_S_pillShaped_btn.png
+  artifactKey: Guid(933daba0d7ac0d646a08abf40d360de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CGB01-grey_S_pillShaped_btn.png using Guid(933daba0d7ac0d646a08abf40d360de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2710f0f0b8a3bea5c64cec5157f77c9d') in 0.016348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 225.003682 seconds.
+  path: Assets/Textures/Background Win.png
+  artifactKey: Guid(255fb12cebe9ae3479657e872fc47d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Background Win.png using Guid(255fb12cebe9ae3479657e872fc47d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914211e6ac8e93656f95d4daacef1949') in 0.027518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Case Day 2.png
+  artifactKey: Guid(c3059ef01673539468c49c288db9f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Case Day 2.png using Guid(c3059ef01673539468c49c288db9f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fd6b747fe5ccdc1f0aa6fe59343fd8') in 0.020232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/Case Day 1.png
+  artifactKey: Guid(e87c6bc542382cf4abc0bc86e556cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Case Day 1.png using Guid(e87c6bc542382cf4abc0bc86e556cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85299327a79b1fe45267958eaeee3693') in 0.019014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.952803 seconds.
+  path: Assets/Textures/easy-use.png
+  artifactKey: Guid(a3bd0bb7a4731e449916fad4bcad6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/easy-use.png using Guid(a3bd0bb7a4731e449916fad4bcad6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a690b83e8562e8d2a3e0f33d3107b019') in 0.016091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063875 seconds.
+  path: Assets/Textures/easy-use_3.png
+  artifactKey: Guid(24e0d0c6ade3a5b4b9a3b8ecee3992ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/easy-use_3.png using Guid(24e0d0c6ade3a5b4b9a3b8ecee3992ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9578da0d001c54e5fd7ecadd2238c69a') in 0.019077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026839 seconds.
+  path: Assets/Textures/Haptic.png
+  artifactKey: Guid(75ef59e5fbd4cb84f8d5daf4ba8703ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Haptic.png using Guid(75ef59e5fbd4cb84f8d5daf4ba8703ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67443e93a22eaf185f9fe4f7f14005b7') in 0.014790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041389 seconds.
+  path: Assets/Textures/Icon Setting.png
+  artifactKey: Guid(f6165614596a27c45a186ab16d2a1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icon Setting.png using Guid(f6165614596a27c45a186ab16d2a1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d97f940a114c84957c602e13ce2f469') in 0.012438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016258 seconds.
+  path: Assets/Textures/levelbg.png
+  artifactKey: Guid(506bb82eab55faa41ae04618caa15a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/levelbg.png using Guid(506bb82eab55faa41ae04618caa15a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a3d9c452a0064f8e1e066c5df65c77') in 0.012937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086553 seconds.
+  path: Assets/Textures/noads2.png
+  artifactKey: Guid(82fd45fcb1659c2468ba5f3182539665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/noads2.png using Guid(82fd45fcb1659c2468ba5f3182539665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cf891c5b6e12886b3c6ba63f5df566') in 0.016219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.324401 seconds.
+  path: Assets/Textures/Radial Shine Win.png
+  artifactKey: Guid(9e8b1aa5030f62d4b8acccb018a3db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Radial Shine Win.png using Guid(9e8b1aa5030f62d4b8acccb018a3db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6f440e4fbdc97d885c3c5c413e6f2d') in 0.020709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013089 seconds.
+  path: Assets/Textures/shopping-cart 1.png
+  artifactKey: Guid(af09d2cb1e89da6438029a2c480e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/shopping-cart 1.png using Guid(af09d2cb1e89da6438029a2c480e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3248990cf2860c5d43725ccce0a78eb7') in 0.015341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Sound.png
+  artifactKey: Guid(d8bab2b6ff3d0e049b29755fe7569a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sound.png using Guid(d8bab2b6ff3d0e049b29755fe7569a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd70ae0d990745dff3c5165e197ada44') in 0.013172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016339 seconds.
+  path: Assets/Textures/video-ad.png
+  artifactKey: Guid(7c394d3e934078148b332be00342c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/video-ad.png using Guid(7c394d3e934078148b332be00342c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95cc403cc8768ca96d6531717f12b6d') in 0.017494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.592359 seconds.
+  path: Assets/Textures/Background Win.png
+  artifactKey: Guid(255fb12cebe9ae3479657e872fc47d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Background Win.png using Guid(255fb12cebe9ae3479657e872fc47d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772daf2b4e14c43e7fc41892022c2cac') in 0.044877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Case Select.png
+  artifactKey: Guid(ea4fdef43c4db0a4889439aa04803f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Case Select.png using Guid(ea4fdef43c4db0a4889439aa04803f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df467a710b040bc685711439dfcbff64') in 0.025588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.582581 seconds.
+  path: Assets/Textures/Info.png
+  artifactKey: Guid(0a5a5f6d86505404b85b49022a0a98dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Info.png using Guid(0a5a5f6d86505404b85b49022a0a98dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163cb1305434debfd5cfd089ce77a3ef') in 0.028502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/shopping-cart 1.png
+  artifactKey: Guid(af09d2cb1e89da6438029a2c480e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/shopping-cart 1.png using Guid(af09d2cb1e89da6438029a2c480e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded6caf519717ef8c8078da633f14f23') in 0.037635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Sound.png
+  artifactKey: Guid(d8bab2b6ff3d0e049b29755fe7569a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sound.png using Guid(d8bab2b6ff3d0e049b29755fe7569a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd914f710cc0af146d2eca51b405d4c15') in 0.016372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Title 11.png
+  artifactKey: Guid(320238455978c644db6fb09954c6196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Title 11.png using Guid(320238455978c644db6fb09954c6196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6dc3329cb66a82ecc2401e5c9c67dd') in 0.038944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures/noads2.png
+  artifactKey: Guid(82fd45fcb1659c2468ba5f3182539665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/noads2.png using Guid(82fd45fcb1659c2468ba5f3182539665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca21d3af12f64fe9dcb8c01a56f9c58') in 0.032287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.343826 seconds.
+  path: Assets/Textures/IAP.png
+  artifactKey: Guid(380a869171601c74fabed6eae4e59de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/IAP.png using Guid(380a869171601c74fabed6eae4e59de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515cbba625c71bfe0c3e4ade6be1fd8b') in 0.011995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.375624 seconds.
+  path: Assets/Textures/easy-use_2.png
+  artifactKey: Guid(2a7605830466b9642b29a8795e5defff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/easy-use_2.png using Guid(2a7605830466b9642b29a8795e5defff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135d570d05d6fcaba1f6e7dd21855fd0') in 0.027920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061525 seconds.
+  path: Assets/Textures/dollar.png
+  artifactKey: Guid(a0511fc6971eff84d83d8292a83c0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/dollar.png using Guid(a0511fc6971eff84d83d8292a83c0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa68675d48cc9847e2252eb80dd73f53') in 0.028499 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006772 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.4 KB). Loaded Objects now: 3874.
+Memory consumption went from 121.5 MB to 121.4 MB.
+Total: 3.376700 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.825400 ms  DeleteObjects: 0.098700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007994 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (919ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.6 KB). Loaded Objects now: 3877.
+Memory consumption went from 121.5 MB to 121.4 MB.
+Total: 2.749400 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.235700 ms  DeleteObjects: 0.080400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006978 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (965ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.6 KB). Loaded Objects now: 3880.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 2.902900 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.365700 ms  DeleteObjects: 0.087600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.6 KB). Loaded Objects now: 3883.
+Memory consumption went from 121.5 MB to 121.4 MB.
+Total: 2.847600 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.171500 ms MarkObjects: 2.342700 ms  DeleteObjects: 0.073200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1185ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.7 KB). Loaded Objects now: 3886.
+Memory consumption went from 121.5 MB to 121.5 MB.
+Total: 2.884500 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.132800 ms MarkObjects: 2.437500 ms  DeleteObjects: 0.083100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006200 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.7 KB). Loaded Objects now: 3889.
+Memory consumption went from 121.4 MB to 121.4 MB.
+Total: 4.979800 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 0.319700 ms MarkObjects: 4.032600 ms  DeleteObjects: 0.128300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.5 KB). Loaded Objects now: 3892.
+Memory consumption went from 121.6 MB to 121.5 MB.
+Total: 4.686700 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.294900 ms MarkObjects: 3.852800 ms  DeleteObjects: 0.141600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
