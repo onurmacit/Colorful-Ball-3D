@@ -23,6 +23,25 @@ public class UIManager : MonoBehaviour
   public GameObject information;
 
 
+  public void Start(){
+     whiteEffectİmage.SetActive(false);
+    if(PlayerPrefs.HasKey("Sound")== false){
+      PlayerPrefs.SetInt("Sound",1);
+
+      if(PlayerPrefs.HasKey("Vibration") == false){
+        PlayerPrefs.SetInt("Vibration",1);
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
 
   //Buton Fonksiyonları
 
@@ -30,6 +49,29 @@ public class UIManager : MonoBehaviour
     settingsOpen.SetActive(false);
     settingsClose.SetActive(true);
     layoutAnimator.SetTrigger("slide_in");
+
+    if(PlayerPrefs.GetInt("Sound") == 1){
+      soundOn.SetActive(true);
+      soundOff.SetActive(false);
+      AudioListener.volume = 1;
+    }
+
+    else if(PlayerPrefs.GetInt("Sound") == 2){
+      soundOn.SetActive(false);
+      soundOff.SetActive(true);
+      AudioListener.volume = 0; 
+    }
+
+     if (PlayerPrefs.GetInt("Vibration") ==1){
+       vibrationOn.SetActive(true);
+       vibrationOff.SetActive(false);
+    }
+
+     else if (PlayerPrefs.GetInt("Vibration") ==2){
+       vibrationOn.SetActive(false);
+       vibrationOff.SetActive(true);
+    }
+    
   }
 
   public void SettingsClose(){
@@ -41,21 +83,27 @@ public class UIManager : MonoBehaviour
   public void SoundOn (){
     soundOn.SetActive(false);
     soundOff.SetActive(true);
+    AudioListener.volume = 0;
+    PlayerPrefs.SetInt("Sound",2);
   }
 
   public void SoundOff (){
     soundOn.SetActive(true);
     soundOff.SetActive(false);
+    AudioListener.volume = 1;
+    PlayerPrefs.SetInt("Sound",1);
   }
 
   public void VibrationOn (){
     vibrationOn.SetActive(false);
     vibrationOff.SetActive(true);
+    PlayerPrefs.SetInt("Vibration",2); 
   }
 
    public void VibrationOff (){
     vibrationOn.SetActive(true);
     vibrationOff.SetActive(false);
+    PlayerPrefs.SetInt("Vibration",1);
   }
 
 
@@ -82,10 +130,6 @@ public class UIManager : MonoBehaviour
 
 
 
-  
-  public void Start(){
-    whiteEffectİmage.SetActive(false);
-  }
   
     public void WhiteEffect(){
          whiteEffectİmage.SetActive(true);
