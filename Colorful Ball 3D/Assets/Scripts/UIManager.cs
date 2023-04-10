@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -21,6 +22,11 @@ public class UIManager : MonoBehaviour
   public GameObject vibrationOff;
   public GameObject iap;
   public GameObject information;
+  public GameObject introHand;
+  public GameObject taptostartText;
+  public GameObject noAds;
+  public GameObject shopButton;
+  public GameObject restartScreen;
 
 
   public void Start(){
@@ -32,6 +38,32 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetInt("Vibration",1);
       }
     }
+  }
+
+  public void FirstTouch(){
+    introHand.SetActive(false);
+    taptostartText.SetActive(false);
+    noAds.SetActive(false);
+    shopButton.SetActive(false);
+    settingsOpen.SetActive(false);
+    settingsClose.SetActive(false);
+    soundOn.SetActive(false);
+    soundOff.SetActive(false);
+    vibrationOff.SetActive(false);
+    vibrationOn.SetActive(false);
+    iap.SetActive(false);
+    information.SetActive(false);
+  }
+
+  public void RestartButtonActive(){
+    restartScreen.SetActive(true);
+  }
+
+  public void RestartScene(){
+    Variables.firsTouch = 0;
+    Time.timeScale = 1f;
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
   }
 
 
