@@ -319,7 +319,9 @@
 "Assets/DOTween/Modules/DOTweenModuleUtils.cs"
 "Assets/Scripts/Bounds.cs"
 "Assets/Scripts/CameraShake.cs"
+"Assets/Scripts/Destroyer.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/sSliders.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/Scripts/Variables.cs"
 -langversion:9.0

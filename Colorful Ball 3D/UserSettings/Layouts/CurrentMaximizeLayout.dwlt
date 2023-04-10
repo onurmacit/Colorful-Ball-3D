@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 45391
+  controlID: 3872
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 45392
+  controlID: 3873
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -430,9 +430,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 84.56765, y: 1660.3267, z: -17.73869}
+    m_Target: {x: 6.4435487, y: 2.0471494, z: 16.284544}
     speed: 2
-    m_Value: {x: 84.56765, y: 1660.3267, z: -17.73869}
+    m_Value: {x: 6.4435487, y: 2.0471494, z: 16.284544}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -479,13 +479,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17902075, y: -0.010329984, z: -0.0018804909, w: 0.9837948}
+    m_Target: {x: 0.12697884, y: -0.6289751, z: 0.10512102, w: 0.7597579}
     speed: 2
-    m_Value: {x: 0.17902075, y: 0.010329983, z: 0.0018804909, w: -0.9837948}
+    m_Value: {x: 0.12634484, y: -0.63351727, z: 0.105880156, w: 0.7559644}
   m_Size:
-    m_Target: 47.72971
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 47.72971
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -540,7 +540,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -29678
+  m_LastSelectedObjectID: 60888
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -572,6 +572,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1022931795490536903, guid: 89ada958dd28e2048b93e8c9c3a646d3, type: 2}
+    - {fileID: 4935617319798417101, guid: 6830b6f86c8628a40b3734a49780c950, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.54095036
       e01: 0
@@ -589,10 +590,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 89ada958dd28e2048b93e8c9c3a646d3, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 6830b6f86c8628a40b3734a49780c950, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1022931795490536903, guid: 89ada958dd28e2048b93e8c9c3a646d3, type: 2}
+  - m_Target: {fileID: 4935617319798417101, guid: 6830b6f86c8628a40b3734a49780c950, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -688,9 +705,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d491ffff4895ffff14abffff7cabffffd4abffffe0adffffccb4ffffaebeffff34fbffff
+      m_SelectedIDs: bcea0000
+      m_LastClickedID: 60092
+      m_ExpandedIDs: ecb6ffff3eb7ffff5eb8ffff32fbffff54ed0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -781,13 +798,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful
     Ball 3D
@@ -795,9 +812,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f65e0000
-    m_LastClickedID: 24310
-    m_ExpandedIDs: 00000000f65e000000ca9a3b
+    m_SelectedIDs: f45f0000
+    m_LastClickedID: 24564
+    m_ExpandedIDs: 00000000e25f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -825,7 +842,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f65e000000ca9a3b
+    m_ExpandedIDs: 00000000e25f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,9 +867,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: bcea0000
+    m_LastClickedInstanceID: 60092
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
   //Butonlar
   public GameObject settingsOpen;
   public GameObject settingsClose; 
+  public GameObject layoutBackground; 
   public GameObject soundOn;
   public GameObject soundOff;
   public GameObject vibrationOn;
@@ -47,6 +48,7 @@ public class UIManager : MonoBehaviour
     shopButton.SetActive(false);
     settingsOpen.SetActive(false);
     settingsClose.SetActive(false);
+    layoutBackground.SetActive(false);
     soundOn.SetActive(false);
     soundOff.SetActive(false);
     vibrationOff.SetActive(false);

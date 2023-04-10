@@ -3,8 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bounds
     - CameraShake
+    - Destroyer
     - Player
     - UIManager
+    - sSliders
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
     Unity.Rider.Editor.dll:
@@ -15,6 +17,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -22,9 +33,13 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     DOTween:
     - DG.Tweening.Core.DOTweenSettings/ModulesSetup
@@ -45,15 +60,44 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: SoundOn
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: SettingsClose
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: SoundOff
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartScene
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: SettingsOpen
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: VibrationOff
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: VibrationOn
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -80,44 +124,64 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1936}
+      Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 2190}
+      Script: {instanceID: 1960}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 2646}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 4208}
+      Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 4922}
+      Script: {instanceID: 3632}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 3984}
     - Class: 114
-      Script: {instanceID: 5848}
+      Script: {instanceID: 4234}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 4510}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 4948}
     - Class: 114
-      Script: {instanceID: 7556}
+      Script: {instanceID: 5272}
+    - Class: 114
+      Script: {instanceID: 5874}
+    - Class: 114
+      Script: {instanceID: 6026}
+    - Class: 114
+      Script: {instanceID: 6374}
+    - Class: 114
+      Script: {instanceID: 6630}
+    - Class: 114
+      Script: {instanceID: 6820}
+    - Class: 114
+      Script: {instanceID: 7582}
+    - Class: 114
+      Script: {instanceID: 265870}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -133,6 +197,10 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -303,6 +371,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1dbc2d0c92a0c29be3d54a1a5409cea5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sSliders
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -887,7 +961,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 88b9a94a71cc175dd066958e1db5e796
+      Hash: a8151085c483340b00b5eb35c02b88fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -957,6 +1031,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Destroyer
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

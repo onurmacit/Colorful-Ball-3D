@@ -1,4 +1,4 @@
-#Thu Apr 06 01:35:42 EET 2023
+#Mon Apr 10 17:00:57 EET 2023
 base.0=C\:\\Users\\Onur Macit\\Documents\\GitHub\\Colorful-Ball-3D\\Colorful Ball 3D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
