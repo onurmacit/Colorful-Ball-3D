@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -11,7 +12,16 @@ public class UIManager : MonoBehaviour
   public Image ımage;
   public float duration;
 
+  private bool radial_Shine;
+
+  public Image fillrateImage;
+  public GameObject player;
+
+  public GameObject finishLine;
+
   public Animator layoutAnimator;
+
+  public TextMeshProUGUI coinText;
 
   //Butonlar
   public GameObject settingsOpen;
@@ -29,6 +39,15 @@ public class UIManager : MonoBehaviour
   public GameObject shopButton;
   public GameObject restartScreen;
 
+  //Oyun Sonu Ekranı
+  public GameObject finishScreen;
+  public GameObject blackBackground; 
+  public GameObject complete;
+  public GameObject radialShine;
+  public GameObject coin;
+  public GameObject rewarded;
+  public GameObject nothanks;
+
 
   public void Start(){
      whiteEffectİmage.SetActive(false);
@@ -39,6 +58,15 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetInt("Vibration",1);
       }
     }
+    CoinTextUpdate();
+  }
+
+  public void Update(){
+    if(radial_Shine == true)
+    radialShine.GetComponent<RectTransform>().Rotate(new Vector3(0,0,15f * Time.deltaTime));
+
+    fillrateImage.fillAmount = ((player.transform.position.z*200) / (finishLine.transform.position.z))/200;
+
   }
 
   public void FirstTouch(){
@@ -57,6 +85,10 @@ public class UIManager : MonoBehaviour
     information.SetActive(false);
   }
 
+  public void CoinTextUpdate(){
+    coinText.text = PlayerPrefs.GetInt("moneyy").ToString();
+  }
+
   public void RestartButtonActive(){
     restartScreen.SetActive(true);
   }
@@ -66,6 +98,26 @@ public class UIManager : MonoBehaviour
     Time.timeScale = 1f;
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
+  }
+
+  public void FinishScreen(){
+    StartCoroutine("FinishLaunch");
+  }
+
+  public IEnumerator FinishLaunch(){
+    Time.timeScale = 0.5f;
+    radial_Shine = true;
+    finishScreen.SetActive(true);
+    blackBackground.SetActive(true);
+    yield return new  WaitForSecondsRealtime(0.8F);
+    complete.SetActive(true);
+    yield return new  WaitForSecondsRealtime(1.3F);
+    radialShine.SetActive(true);
+    coin.SetActive(true);
+    yield return new  WaitForSecondsRealtime(1F);
+    rewarded.SetActive(true);
+    yield return new  WaitForSecondsRealtime(3F);
+    nothanks.SetActive(true);
   }
 
 

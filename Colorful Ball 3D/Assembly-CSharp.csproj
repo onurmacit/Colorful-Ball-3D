@@ -37,8 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bounds.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Scripts\Destroyer.cs" />
      <Compile Include="Assets\Scripts\sSliders.cs" />
      <Compile Include="Assets\Scripts\Variables.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
@@ -50,7 +52,6 @@
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Scripts\Destroyer.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

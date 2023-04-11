@@ -320,6 +320,7 @@
 "Assets/Scripts/Bounds.cs"
 "Assets/Scripts/CameraShake.cs"
 "Assets/Scripts/Destroyer.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/sSliders.cs"
 "Assets/Scripts/UIManager.cs"
