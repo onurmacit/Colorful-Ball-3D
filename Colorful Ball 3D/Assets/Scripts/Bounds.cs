@@ -13,8 +13,8 @@ public class Bounds : MonoBehaviour
     public void LateUpdate()
     {
         Vector3 viewPos = transform.position;
-        viewPos.z = Mathf.Clamp(viewPos.z,vectorBack.transform.position.z,vectorForward.transform.position.z);
-        viewPos.x = Mathf.Clamp(viewPos.x,vectorLeft.transform.position.x,vectorRight.transform.position.x);
+        viewPos.z = Mathf.Clamp(viewPos.z, vectorBack.transform.position.z, vectorForward.transform.position.z);
+        viewPos.x = Mathf.Clamp(viewPos.x, vectorLeft.transform.position.x, vectorRight.transform.position.x);
         transform.position = viewPos;
     }
 }
