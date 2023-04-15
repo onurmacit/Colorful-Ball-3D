@@ -8,7 +8,7 @@
 8    <uses-sdk
 9        android:minSdkVersion="22"
 9-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-10        android:targetSdkVersion="30" />
+10        android:targetSdkVersion="33" />
 10-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 11
 12    <uses-feature android:glEsVersion="0x00030000" />
@@ -56,71 +56,73 @@
 32-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
 33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
 33-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:184-365
-34            android:hardwareAccelerated="false"
-34-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:401-436
-35            android:launchMode="singleTask"
-35-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:152-183
-36            android:resizeableActivity="false"
-36-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:366-400
-37            android:screenOrientation="userPortrait"
-37-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-151
-38            android:theme="@style/UnityThemeSelector" >
-38-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
-39            <intent-filter>
-39-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
-40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
-40-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
-42-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
-43            </intent-filter>
-44
-45            <meta-data
-45-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
-46                android:name="unityplayer.UnityActivity"
-46-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
-47                android:value="true" />
-47-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
-48            <meta-data
-48-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
-49                android:name="android.notch_support"
-49-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
-50                android:value="true" />
-50-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
-51        </activity>
-52
-53        <meta-data
-53-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
-54            android:name="unity.splash-mode"
-54-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
-55            android:value="0" />
-55-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
-56        <meta-data
-56-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
-57            android:name="unity.splash-enable"
-57-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
-58            android:value="True" />
-58-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
-59        <meta-data
-59-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
-60            android:name="unity.launch-fullscreen"
-60-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
-61            android:value="True" />
-61-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
-62        <meta-data
-62-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
-63            android:name="unity.allow-resizable-window"
-63-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
-64            android:value="False" />
-64-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
-65        <meta-data
-65-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
-66            android:name="notch.config"
-66-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
-67            android:value="portrait|landscape" />
-67-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
-68    </application>
-69
-70</manifest>
+34            android:exported="true"
+34-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:437-460
+35            android:hardwareAccelerated="false"
+35-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:401-436
+36            android:launchMode="singleTask"
+36-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:152-183
+37            android:resizeableActivity="false"
+37-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:366-400
+38            android:screenOrientation="userPortrait"
+38-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-151
+39            android:theme="@style/UnityThemeSelector" >
+39-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+40            <intent-filter>
+40-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+41-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+43-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+44            </intent-filter>
+45
+46            <meta-data
+46-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+47                android:name="unityplayer.UnityActivity"
+47-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+48                android:value="true" />
+48-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+49            <meta-data
+49-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+50                android:name="android.notch_support"
+50-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+51                android:value="true" />
+51-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+52        </activity>
+53
+54        <meta-data
+54-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+55            android:name="unity.splash-mode"
+55-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+56            android:value="0" />
+56-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+57        <meta-data
+57-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+58            android:name="unity.splash-enable"
+58-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+59            android:value="True" />
+59-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+60        <meta-data
+60-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+61            android:name="unity.launch-fullscreen"
+61-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+62            android:value="True" />
+62-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+63        <meta-data
+63-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+64            android:name="unity.allow-resizable-window"
+64-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+65            android:value="False" />
+65-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+66        <meta-data
+66-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+67            android:name="notch.config"
+67-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+68            android:value="portrait|landscape" />
+68-->C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+69    </application>
+70
+71</manifest>

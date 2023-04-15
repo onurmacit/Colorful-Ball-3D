@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public UIManager uıanagerScript;
+    public AdManager admanagerScript;
 
     public void Start()
     {
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && gameObject.CompareTag("FinishLine"))
         {
+            admanagerScript.LoadInterstitialAd();
+            admanagerScript.LoadRewardedAd(); 
             CoinCalculator(100);
             uıanagerScript.CoinTextUpdate();
             uıanagerScript.FinishScreen();

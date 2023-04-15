@@ -35,6 +35,8 @@ ADDED from C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3
 		ADDED from C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:152-183
 	android:hardwareAccelerated
 		ADDED from C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:401-436
+	android:exported
+		ADDED from C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:437-460
 	android:resizeableActivity
 		ADDED from C:\Users\Onur Macit\Documents\GitHub\Colorful-Ball-3D\Colorful Ball 3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:366-400
 	android:configChanges
