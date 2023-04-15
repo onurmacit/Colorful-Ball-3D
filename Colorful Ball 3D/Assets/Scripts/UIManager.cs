@@ -48,6 +48,10 @@ public class UIManager : MonoBehaviour
     public GameObject rewarded;
     public GameObject nothanks;
 
+    public GameObject achievedCoin;
+    public GameObject nextLevel;
+    public TextMeshProUGUI achievedText;
+
 
     public void Start()
     {
@@ -108,6 +112,14 @@ public class UIManager : MonoBehaviour
 
     }
 
+    public void NextScen()
+    {
+        Variables.firsTouch = 0;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+    }
+
     public void FinishScreen()
     {
         StartCoroutine("FinishLaunch");
@@ -128,6 +140,22 @@ public class UIManager : MonoBehaviour
         rewarded.SetActive(true);
         yield return new WaitForSecondsRealtime(3F);
         nothanks.SetActive(true);
+    }
+
+    public IEnumerator AfterRewardButton()
+    {
+         Debug.Log("AfterRewardButton coroutine started.");
+        achievedCoin.SetActive(true);
+        achievedText.gameObject.SetActive(true);
+        rewarded.SetActive(false);
+        nothanks.SetActive(false);
+        for (int i = 0; i < 401; i += 4)
+        {
+            achievedText.text = "+" + i.ToString();
+            yield return new WaitForSeconds(0.0001f);
+        }
+        yield return new WaitForSecondsRealtime(1f);
+        nextLevel.SetActive(true);
     }
 
 

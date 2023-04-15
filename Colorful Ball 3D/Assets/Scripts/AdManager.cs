@@ -17,6 +17,7 @@ public class AdManager : MonoBehaviour
 
     private InterstitialAd interstitialAd;
     private RewardedAd rewardedAd;
+    public UIManager uımanagerScript;
     public void LoadInterstitialAd()
     {
         var adRequest = new AdRequest.Builder()
@@ -83,15 +84,12 @@ public class AdManager : MonoBehaviour
 
     public void ShowRewardedAd()
     {
-        const string rewardMsg =
-            "Rewarded ad rewarded the user. Type: {0}, amount: {1}.";
-
         if (rewardedAd != null && rewardedAd.CanShowAd())
         {
             rewardedAd.Show((Reward reward) =>
             {
-                // TODO: Reward the user.
-                Debug.Log(string.Format("{0} {1}", rewardMsg, reward.Type, reward.Amount));
+                CoinCalculator(400);  
+                      
             });
         }
     }
@@ -103,32 +101,7 @@ public class AdManager : MonoBehaviour
         {
             CoinCalculator(400);
         };
-        // Raised when an impression is recorded for an ad.
-        ad.OnAdImpressionRecorded += () =>
-        {
-            Debug.Log("Rewarded ad recorded an impression.");
-        };
-        // Raised when a click is recorded for an ad.
-        ad.OnAdClicked += () =>
-        {
-            Debug.Log("Rewarded ad was clicked.");
-        };
-        // Raised when an ad opened full screen content.
-        ad.OnAdFullScreenContentOpened += () =>
-        {
-            Debug.Log("Rewarded ad full screen content opened.");
-        };
-        // Raised when the ad closed full screen content.
-        ad.OnAdFullScreenContentClosed += () =>
-        {
-            Debug.Log("Rewarded ad full screen content closed.");
-        };
-        // Raised when the ad failed to open full screen content.
-        ad.OnAdFullScreenContentFailed += (AdError error) =>
-        {
-            Debug.LogError("Rewarded ad failed to open full screen content " +
-                           "with error : " + error);
-        };
+    
     }
      public void CoinCalculator(int money)
     {
@@ -143,6 +116,5 @@ public class AdManager : MonoBehaviour
         }
     }
 }
-
 
 
