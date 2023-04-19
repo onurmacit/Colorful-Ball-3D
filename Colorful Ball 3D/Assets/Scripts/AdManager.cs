@@ -89,20 +89,11 @@ public class AdManager : MonoBehaviour
             rewardedAd.Show((Reward reward) =>
             {
                 CoinCalculator(400);  
-                      
+                uımanagerScript.AfterRewardButton();  
             });
         }
     }
 
-    private void RegisterEventHandlers(RewardedAd ad)
-    {
-        // Raised when the ad is estimated to have earned money.
-        ad.OnAdPaid += (AdValue adValue) =>
-        {
-            CoinCalculator(400);
-        };
-    
-    }
      public void CoinCalculator(int money)
     {
         if (PlayerPrefs.HasKey("moneyy"))

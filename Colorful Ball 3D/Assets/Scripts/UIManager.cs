@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject whiteEffectİmage;
     public Image ımage;
     public float duration;
+    public float revealDuration = 1f;
 
     private bool radial_Shine;
 
@@ -18,10 +18,11 @@ public class UIManager : MonoBehaviour
     public GameObject player;
 
     public GameObject finishLine;
+    public Text coin_text;
 
     public Animator layoutAnimator;
 
-    public TextMeshProUGUI coinText;
+
 
     //Butonlar
     public GameObject settingsOpen;
@@ -41,16 +42,16 @@ public class UIManager : MonoBehaviour
 
     //Oyun Sonu Ekranı
     public GameObject finishScreen;
-    public GameObject blackBackground;
-    public GameObject complete;
-    public GameObject radialShine;
-    public GameObject coin;
-    public GameObject rewarded;
+    public RectTransform blackBackground;
+    public RectTransform complete;
+    public RectTransform radialShine;
+    public RectTransform coin;
+    public RectTransform rewarded;
     public GameObject nothanks;
 
-    public GameObject achievedCoin;
-    public GameObject nextLevel;
-    public TextMeshProUGUI achievedText;
+    public RectTransform achievedCoin;
+    public RectTransform nextLevel;
+    public Text achievedText;
 
 
     public void Start()
@@ -96,7 +97,7 @@ public class UIManager : MonoBehaviour
 
     public void CoinTextUpdate()
     {
-        coinText.text = PlayerPrefs.GetInt("moneyy").ToString();
+         coin_text.text = PlayerPrefs.GetInt("moneyy").ToString();
     }
 
     public void RestartButtonActive()
@@ -120,42 +121,57 @@ public class UIManager : MonoBehaviour
 
     }
 
-    public void FinishScreen()
-    {
-        StartCoroutine("FinishLaunch");
-    }
+  
 
-    public IEnumerator FinishLaunch()
+    
+
+
+
+
+
+
+
+
+
+
+
+    public void FinishLaunch()
     {
         Time.timeScale = 0.5f;
         radial_Shine = true;
         finishScreen.SetActive(true);
-        blackBackground.SetActive(true);
-        yield return new WaitForSecondsRealtime(0.8F);
-        complete.SetActive(true);
-        yield return new WaitForSecondsRealtime(1.3F);
-        radialShine.SetActive(true);
-        coin.SetActive(true);
-        yield return new WaitForSecondsRealtime(1F);
-        rewarded.SetActive(true);
-        yield return new WaitForSecondsRealtime(3F);
+        blackBackground.gameObject.SetActive(true);
+        blackBackground.DOScale(Vector3.zero, revealDuration).From();
+        complete.gameObject.SetActive(true);
+        complete.DOAnchorPosY(230f, revealDuration).From();
+        radialShine.gameObject.SetActive(true);
+        radialShine.DOAnchorPosX(900f, revealDuration).From();
+        coin.gameObject.SetActive(true);
+        coin.DOAnchorPosY(-800f, revealDuration).From();
+        rewarded.gameObject.SetActive(true);
+        var tween = rewarded.DOAnchorPosX(-900f, revealDuration).From();
+        tween.OnComplete(() =>
+{
+    DOVirtual.DelayedCall(3f, () =>
+    {
         nothanks.SetActive(true);
+    });
+});
     }
 
-    public IEnumerator AfterRewardButton()
+    public void AfterRewardButton()
     {
-         Debug.Log("AfterRewardButton coroutine started.");
-        achievedCoin.SetActive(true);
+        Debug.Log("AfterRewardButton dotween started.");
+        finishScreen.SetActive(true);
+        achievedCoin.gameObject.SetActive(true);
+        achievedCoin.DOAnchorPosY(-800f, revealDuration).From();
         achievedText.gameObject.SetActive(true);
-        rewarded.SetActive(false);
+        rewarded.gameObject.SetActive(false);
         nothanks.SetActive(false);
-        for (int i = 0; i < 401; i += 4)
-        {
-            achievedText.text = "+" + i.ToString();
-            yield return new WaitForSeconds(0.0001f);
-        }
-        yield return new WaitForSecondsRealtime(1f);
-        nextLevel.SetActive(true);
+        achievedText.text = "";
+        achievedText.DOText("400", revealDuration).SetDelay(revealDuration);
+        nextLevel.gameObject.SetActive(true);
+        nextLevel.DOAnchorPosY(800f, revealDuration).From();
     }
 
 

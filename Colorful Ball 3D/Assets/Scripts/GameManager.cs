@@ -22,8 +22,8 @@ public class GameManager : MonoBehaviour
             admanagerScript.LoadRewardedAd(); 
             CoinCalculator(100);
             uıanagerScript.CoinTextUpdate();
-            uıanagerScript.FinishScreen();
-
+            uıanagerScript.FinishLaunch();
+            PlayerPrefs.SetInt("LevelIndex", PlayerPrefs.GetInt("LevelIndex") + 1);
         }
     }
 
